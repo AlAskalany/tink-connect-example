@@ -10,8 +10,8 @@ const AuthorizationLink = ({
 }) => {
   const ssnData = ssn ? ('&input_username=' + ssn) : '';
   const link = 'https://oauth.tink.se/0.4/authorize/?' +
-    'client_id=6745522a5cb6472587174d0b22ad2905' +
-    '&redirect_uri=https://demo.tink.se/callback' +
+    'client_id=3d393a420baf4059972c98ba80c19fee' +
+    '&redirect_uri=http://localhost:3000/callback' +
     '&scope=' + scope +
     ssnData +
     '&grant_type=authorization_code' +
